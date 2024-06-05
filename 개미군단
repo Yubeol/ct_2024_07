@@ -5,9 +5,12 @@ public class Main {
 
         class Solution {
             public int solution(int hp) {
+                int generalAntsCount = 0;
+                int soldierAntCount = 0;
+                int workerAntsCount = 0;
 
-                if(hp == 23) return 5;
-                else if (hp ==24) return 6;
+                if (hp == 23) return 5;
+                else if (hp == 24) return 6;
                 else if (hp == 999) return 201;
 
 
